@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Gutenberg</string>
+
+    <!--Category Activity-->
+    <string name="gutenberg_project">Gutenberg Project</string>
+    <string name="free_search_database_books">A social cataloging website that allows you to freely search its database of books, annotations, and reviews</string>
+
+    <!--Category-->
+    <string name="title_fiction">Fiction</string>
+    <string name="title_drama">Drama</string>
+    <string name="title_humor">Humor</string>
+    <string name="title_politics">Politics</string>
+    <string name="title_philosophy">Philosophy</string>
+    <string name="title_history">History</string>
+    <string name="title_adventure">Adventure</string>
+
+    <!--Description-->
+    <string name="txt_next">Next</string>
+    <string name="desc_cover">Cover</string>
+    <string name="desc_back">Back</string>
+    <string name="desc_cancel">Cancel</string>
+
+    <!--Search-->
+    <string name="txt_search">Search</string>
+    <string name="msg_no_book_found">No Books Found</string>
+    <string name="txt_error">Error</string>
+    <string name="txt_viewable_available">No viewable version available</string>
+    <string name="txt_zip_viewable_available">This is not correct viewable.</string>
+
+</resources>

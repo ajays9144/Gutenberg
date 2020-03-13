@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <EditText
+        android:id="@+id/edt_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_search_box"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="@dimen/padding_medium"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:hint="@string/txt_search"
+        android:minHeight="@dimen/item_genre_card_height"
+        android:padding="@dimen/padding_medium"
+        android:textColor="@color/colorMineShaft"
+        android:textColorHint="@color/colorSilver"
+        tools:text="Search here" />
+
+    <ImageView
+        android:id="@+id/img_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:contentDescription="@string/desc_cancel"
+        android:padding="@dimen/padding_medium"
+        android:src="@drawable/ic_cancel"
+        android:visibility="gone" />
+
+</RelativeLayout>
